@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="WebKelas.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="container">
+            <div class="nav">
+                <img src="MOXELGA-removebg-preview.png" alt="logo" class="logo">
+                <nav class="nav-links" id="navLinks">
+                    <a href="#tugas">Tugas</a>
+                    <a href="#struktur">Struktur</a>
+                    <a href="#piket">Piket</a>
+                </nav>
+                <button class="menu-button" onclick="toggleMenu()">☰</button>
+            </div>
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="#tugas">Tugas</a>
+                <a href="#struktur">Struktur</a>
+                <a href="#piket">Piket</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <h2>Selamat Datang di Website Kelas X RPL 3! 🎉</h2>
+            <p>Temukan informasi penting tentang tugas, struktur organisasi kelas, dan jadwal piket.</p>
+        </div>
+    </section>
+
+    <!-- Tugas -->
+    <section id="tugas">
+        <div class="container">
+            <h2>📚 Daftar Tugas Kelas X RPL 3</h2>
+            <ul>
+                <li class="border-blue">Tugas 1 : Seni budaya (Membuat poster dengan aplikasi canva)</li>
+                <li class="border-green">Tugas 2 : Ipas (Membuat video presentasi tentang kejadian di luar angkasa)</li>
+                <li class="border-pink">Tugas 3 :Pjok (Membuat video senam anak Indonesia hebat)</li>
+                <li class="border-red">Tugas 4 :Produktif (Kerjakan modul 1 dan 2 html&css)</li>
+                <li class="border-yellow">Tugas 5 :Informatika (Kerjakan tugas Wireflow)</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Struktur -->
+    <section id="struktur">
+        <div class="container">
+            <h2>🧑‍🤝‍🧑 Struktur Kelas X RPL 3</h2>
+            <div class="struktur-container">
+                <div class="card"><img src="foto.img/X RPL 3_02_Akira Saskara Hartono.jpg">
+                    <div>
+                        <p>Akira Saskara H.</p>
+                        <p>Ketua Kelas</p>
+                    </div>
+                </div>
+                <div class="card"><img src="foto.img/X RPL 3_12_Fattan Arifudin.jpg">
+                    <div>
+                        <p>Fattan Arifudin</p>
+                        <p>Wakil Ketua</p>
+                    </div>
+                </div>
+                <div class="card"><img src="foto.img/X RPL 3_15_Fidela Putri Andriana.jpg">
+                    <div>
+                        <p>Fidela Putri A.</p>
+                        <p>Bendahara 1</p>
+                    </div>
+                </div>
+                <div class="card"><img src="foto.img/X RPL 3_18_Mauruzt Landsy Oktania.jpg">
+                    <div>
+                        <p>Mauruzt Landsy O.</p>
+                        <p>Bendahara 2</p>
+                    </div>
+                </div>
+                <div class="card"><img src="foto.img/X RPL 3_17_Kendra Respati Maheswara Ugroho.jpg">
+                    <div>
+                        <p>Kendra Respati M.U</p>
+                        <p>Sekretaris 1</p>
+                    </div>
+                </div>
+                <div class="card"><img src="foto.img/X RPL 3_32_Regan Pratama Banyuadji.jpg">
+                    <div>
+                        <p>Regan Pratama B.</p>
+                        <p>Sekretaris 2</p>
+                    </div>
+                </div>
+                <div class="card"><img src="foto.img/X RPL 3_34_Ummu Zahro (1).jpg">
+                    <div>
+                        <p>Ummu Zahro</p>
+                        <p>Sie. Piket</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Piket - Tabel (untuk desktop) -->
+    <section id="piket">
+        <div class="piket-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hari</th>
+                        <th>Petugas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Senin</td>
+                        <td>Alya, Rafael, Regan, Wira, Azhar, Danish, Zulkar</td>
+                    </tr>
+                    <tr>
+                        <td>Selasa</td>
+                        <td>Violet, Gesya, Fattan, Kendra, Ibra, Yusuf</td>
+                    </tr>
+                    <tr>
+                        <td>Rabu</td>
+                        <td>Senja, Queen, Alif, Andhika, Rafani, Bryan, Arkhan</td>
+                    </tr>
+                    <tr>
+                        <td>Kamis</td>
+                        <td>Muza, Nia, Queena, Jasmir, Fawaz, Danies, David</td>
+                    </tr>
+                    <tr>
+                        <td>Jum'at</td>
+                        <td>Almira, Fidela, Akira, Ihsan, Dimas, Galang, Hanan, Fian</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+    <!-- Piket - Card (untuk mobile) -->
+    <div class="piket-cards">
+        <div class="piket-card"><strong>Senin:</strong> Alya, Rafael, Regan, Wira, Azhar, Danish, Zulkar</div>
+        <div class="piket-card"><strong>Selasa:</strong> Violet, Gesya, Fattan, Kendra, Ibra, Yusuf</div>
+        <div class="piket-card"><strong>Rabu:</strong> Senja, Queen, Alif, Andhika, Rafani, Bryan, Arkhan</div>
+        <div class="piket-card"><strong>Kamis:</strong> Muza, Nia, Queena, Jasmir, Fawaz, Danies, David</div>
+        <div class="piket-card"><strong>Jum'at:</strong> Almira, Fidela, Akira, Ihsan, Dimas, Galang, Hanan, Fian</div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Website Kelas X RPL 3. "MOXELGA"</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('mobileMenu');
+            menu.classList.toggle('show');
+        }
+    </script>
+</body>
+
+</html>
